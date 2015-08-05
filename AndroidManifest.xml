@@ -19,7 +19,7 @@
                  android:icon="@mipmap/ic_launcher_shortcut_browser_bookmark" >
 
         <provider android:name=".BookmarkProvider"
-                  android:authorities="com.android.browser;browser;com.android.chrome.browser"
+                  android:authorities="com.android.browser;browser"
                   android:multiprocess="false"
                   android:exported="true">
         </provider>
